@@ -4,6 +4,7 @@ import AboutUsSection from "../components/sections/AboutUsSection";
 import AuthorSection from "../components/sections/AuthorSection";
 import CategorySection from "../components/sections/CategorySection";
 import FeaturedBySection from "../components/sections/FeaturedBySection";
+import FooterSection from "../components/sections/FooterSection";
 import HomePostSection from "../components/sections/HomePostSection";
 import JionSection from "../components/sections/JionSection";
 
@@ -20,6 +21,7 @@ const Home = () => {
         <FeaturedBySection></FeaturedBySection>
         <JionSection></JionSection>
       </div>
+      <FooterSection></FooterSection>
     </>
   );
 };
