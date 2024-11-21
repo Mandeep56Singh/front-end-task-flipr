@@ -13,7 +13,7 @@ const Home = () => {
     <>
       <Navbar></Navbar>
       <HeroSectionHome></HeroSectionHome>
-      <div className="p-6 flex flex-col gap-14 mt-8">
+      <div className="p-6 flex flex-col gap-20 mt-20">
         <HomePostSection></HomePostSection>
         <AboutUsSection></AboutUsSection>
         <CategorySection></CategorySection>
