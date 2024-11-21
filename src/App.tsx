@@ -1,9 +1,9 @@
-import Button from "./components/atoms/Buttons/Button";
-import './index.css'
+import Navbar from "./components/Navbar/Navbar";
+import "./index.css";
 function App() {
   return (
     <>
-      <Button variant={"outline"}>hello</Button>
+     <Navbar></Navbar>
     </>
   );
 }
