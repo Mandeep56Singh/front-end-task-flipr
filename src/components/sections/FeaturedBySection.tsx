@@ -3,7 +3,7 @@ import Button from "../Buttons/Button";
 const FeaturedBySection = () => {
   return (
     <section
-      className="bg-card3 flex flex-col gap-20 md:flex-row  p-10"
+      className="bg-card3 flex flex-col gap-14 md:flex-row  p-10"
       aria-label="featured by companies"
     >
       <div className="flex flex-col gap-2 flex-1">
@@ -16,7 +16,8 @@ const FeaturedBySection = () => {
 
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
       </div>
-      <hr className="h-[200px] border- border-2 hidden md:block" />
+      <div className="h-[200px] border- border-2 hidden md:block" />
+      <hr className=" border- border-2  md:hidden" />
       <div className="flex flex-col gap-8 flex-1">
         <p className="text-secondary font-semibold text-lg">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat

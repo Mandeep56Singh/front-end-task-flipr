@@ -5,6 +5,7 @@ import AuthorSection from "../components/sections/AuthorSection";
 import CategorySection from "../components/sections/CategorySection";
 import FeaturedBySection from "../components/sections/FeaturedBySection";
 import HomePostSection from "../components/sections/HomePostSection";
+import JionSection from "../components/sections/JionSection";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
         <CategorySection></CategorySection>
         <AuthorSection></AuthorSection>
         <FeaturedBySection></FeaturedBySection>
+        <JionSection></JionSection>
       </div>
     </>
   );
