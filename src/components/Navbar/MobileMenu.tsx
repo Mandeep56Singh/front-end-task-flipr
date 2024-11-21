@@ -6,7 +6,7 @@ import menu from "../../assets/Client-First - icons/icons8-menu.svg";
 import { useOutsideClick } from "../../hooks/useOutsideClick";
 import Button from "../Buttons/Button";
 const MobileMenu = () => {
-  const [isOpen, setIsOpen] = useState<boolean>(true);
+  const [isOpen, setIsOpen] = useState<boolean>(false);
   const menuRef = useRef<HTMLElement | null>(null);
 
   useOutsideClick({
