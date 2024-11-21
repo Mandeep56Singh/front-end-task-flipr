@@ -12,9 +12,9 @@ const HeroSectionHome = () => {
       <h1 className="text-white text-xl sm:text-3xl lg:text-5xl font-bold leading-2  ">
         Step-by-step guide to choosing <br /> great font paris
       </h1>
-      <h6 className="flex gap-2 text-white sm:text-lg">
+      <div className="flex gap-2 text-white sm:text-lg">
         By<div className="text-primary">John Dee</div>| May 23,2022
-      </h6>
+      </div>
       <p className="text-card1 text-sm sm:text-base  w-[70%] md:w-[60%]">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad excepturi
         dolor Lorem ipsum, dolor sit amet consectetur 

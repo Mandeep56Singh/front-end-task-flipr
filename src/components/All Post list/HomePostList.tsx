@@ -5,7 +5,7 @@ const HomePostList = () => {
   return (
     <section className="p-4">
       <div className="flex justify-between items-center">
-        <h1 className="text-secondary text-2xl font-bold" aria-label="">
+        <h1 className="text-secondary text-3xl font-bold" aria-label="">
           All Posts
         </h1>
         <Link
