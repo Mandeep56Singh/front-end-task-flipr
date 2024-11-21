@@ -1,6 +1,7 @@
 import HeroSectionHome from "../components/Hero Sections/HeroSectionHome";
 import Navbar from "../components/Navbar/Navbar";
 import AboutUsSection from "../components/sections/AboutUsSection";
+import AuthorSection from "../components/sections/AuthorSection";
 import CategorySection from "../components/sections/CategorySection";
 import HomePostSection from "../components/sections/HomePostSection";
 
@@ -13,6 +14,7 @@ const Home = () => {
         <HomePostSection></HomePostSection>
          <AboutUsSection></AboutUsSection>
          <CategorySection></CategorySection>
+         <AuthorSection></AuthorSection>
       </div>
     </>
   );
