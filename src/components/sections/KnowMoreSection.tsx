@@ -1,9 +1,7 @@
-import image1 from "../../assets/Client-First - IMAGES/ground-group-growth-hands-461049.svg";
-
 const KnowMoreSection = () => {
   return (
-    <section className="flex flex-col gap-8  justify-center items-center p-8">
-      <div className="flex flex-col md:flex-row gap-8 ">
+    <section className="flex flex-col gap-8 justify-center items-center p-8">
+      <div className="flex flex-col md:flex-row gap-8">
         <div className="flex flex-col gap-4 justify-center max-w-[620px]">
           <h1 className="text-2xl text-secondary font-bold">
             Our team of creatives
@@ -18,12 +16,13 @@ const KnowMoreSection = () => {
           </p>
         </div>
         <img
-          src={image1}
+          src="/assets/Client-First - IMAGES/ground-group-growth-hands-461049.svg"
           alt="blog image"
           className="size-[320px] md:size-[380px] mx-auto"
         />
       </div>
-      <div className="flex flex-col md:flex-row-reverse gap-8 ">
+
+      <div className="flex flex-col md:flex-row-reverse gap-8">
         <div className="flex flex-col gap-4 justify-center max-w-[620px]">
           <h1 className="text-2xl text-secondary font-bold">
             Our team of creatives
@@ -38,12 +37,11 @@ const KnowMoreSection = () => {
           </p>
         </div>
         <img
-          src={image1}
+          src="/assets/Client-First - IMAGES/ground-group-growth-hands-461049.svg"
           alt="blog image"
           className="size-[320px] md:size-[380px] mx-auto"
         />
       </div>
-     
     </section>
   );
 };
