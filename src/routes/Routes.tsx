@@ -1,6 +1,6 @@
 import About from "../pages/About";
 import Blog from "../pages/Blog";
-import Contact from "../pages/contact";
+import Contact from '../pages/Contact'
 import Home from "../pages/Home";
 import { createBrowserRouter } from "react-router-dom";
 
