@@ -2,7 +2,7 @@ import ContactUsForm from "../components/forms/ContactUsForm";
 import Navbar from "../components/Navbar/Navbar";
 import FooterSection from "../components/sections/FooterSection";
 
-const contact = () => {
+const Contact = () => {
   return (
     <>
       <Navbar></Navbar>
@@ -12,4 +12,4 @@ const contact = () => {
   );
 };
 
-export default contact;
+export default Contact;
