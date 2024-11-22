@@ -17,7 +17,7 @@ const Home = () => {
         <HomePostSection></HomePostSection>
         <AboutUsSection></AboutUsSection>
         <CategorySection></CategorySection>
-        <AuthorSection></AuthorSection>
+        <AuthorSection limit={4}></AuthorSection>
         <FeaturedBySection></FeaturedBySection>
         <JionSection></JionSection>
       </div>

@@ -1,3 +1,4 @@
+import About from "../pages/About";
 import Blog from "../pages/Blog";
 import Contact from "../pages/contact";
 import Home from "../pages/Home";
@@ -16,4 +17,8 @@ export const routes = createBrowserRouter([
     path: "contact-us",
     element:<Contact></Contact>
   },
+  {
+    path: "about-us",
+    element: <About></About>
+  }
 ]);
