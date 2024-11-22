@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 type props = {
   image: string;
   title: string;
@@ -9,7 +11,9 @@ const BlogPost: React.FC<props> = ({ image, title, heading }) => {
       <img src={image} alt={`blog post image`} className="" />
       <div className="flex  flex-col  gap-4 ">
         <div className="uppercase text-special text-lg font-bold">{title}</div>
+        <Link to="blogpost">
         <h1 className="text-secondary  text-2xl font-bold">{heading}</h1>
+        </Link>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At consequatur temporibus vero sapiente ipsa est. Esse tempore consequatur perferendis non.</p>
       </div>
     </div>
