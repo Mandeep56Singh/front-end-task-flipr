@@ -1,4 +1,4 @@
-import HeroSectionAboutUs from "../components/Hero Sections/HeroSectionAboutUs";
+// import HeroSectionAboutUs from "../components/Hero Sections/HeroSectionAboutUs";
 import Navbar from "../components/Navbar/Navbar";
 
 import AuthorSection from "../components/sections/AuthorSection";
